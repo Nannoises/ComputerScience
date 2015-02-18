@@ -13,9 +13,9 @@ namespace MergeSort
             Console.Write("Before sort: ");
             PrintArray(toSort);
             Console.WriteLine();
-            var sorted = MergeSort.Sort(toSort);
+            InPlaceMergeSort.Sort(toSort);//var sorted = MergeSort.Sort(toSort);
             Console.Write("After sort: ");
-            PrintArray(sorted);
+            PrintArray(toSort);//PrintArray(sorted);
             Console.ReadLine();
         }
 
