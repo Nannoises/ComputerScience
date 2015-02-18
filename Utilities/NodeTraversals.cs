@@ -75,19 +75,5 @@ namespace Utilities
                 }
             }
         }
-
-        public static void RecursieBreadthFirstSearch(INode root, Action<INode> visit)
-        {
-            if (root == null)
-                return;
-
-            if (root.Children == null)
-                return;
-
-            foreach (var child in root.Children)
-            {
-                RecursieBreadthFirstSearch(child, visit);
-            }
-        }
     }
 }
