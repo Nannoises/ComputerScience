@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinCutMaxFlow", "MinCutMaxF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{53F5BF19-6ADB-462A-AFE3-1A891262CA45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{5983237F-64A0-479F-8879-31A8EA7E52B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,16 @@ Global
 		{53F5BF19-6ADB-462A-AFE3-1A891262CA45}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{53F5BF19-6ADB-462A-AFE3-1A891262CA45}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{53F5BF19-6ADB-462A-AFE3-1A891262CA45}.Release|x86.ActiveCfg = Release|Any CPU
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Debug|x86.ActiveCfg = Debug|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Debug|x86.Build.0 = Debug|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Release|Any CPU.ActiveCfg = Release|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Release|x86.ActiveCfg = Release|x86
+		{5983237F-64A0-479F-8879-31A8EA7E52B4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
